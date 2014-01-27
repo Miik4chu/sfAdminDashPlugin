@@ -19,10 +19,5 @@
         $(this).removeClass('nodehover');
       }
     );
-
-    $('li.node a[href=#]').live('click', function(e) {
-      e.preventDefault();
-    });
-    
   });
 })(jQuery)
